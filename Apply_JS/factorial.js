@@ -1,4 +1,5 @@
 
+// factorail = 1 * 2 * 3 * 4 * 5;
 var fact = 1
  for(var i = 1; i<=5; i++){
   fact += fact * i;
@@ -33,7 +34,10 @@ function whileFunction(number){
 var q = whileFunction(5);
 console.log("While " + q);
 
-// Recursion
+// Recursion: Recursion is the technique of making a function call itself
+/// 5! = 1*2*3*4*5 
+//  6! = 1*2*3*4*5*6 or 5! * 6 or (6 - 1) * 6 
+// (n - 1) * n or n * (n -1)
 function factorialF(number){
     if(number === 1){
         return 1;
@@ -42,4 +46,4 @@ function factorialF(number){
 }
 
 var y = factorialF(4);
-console.log;(y);
+console.log(y);
