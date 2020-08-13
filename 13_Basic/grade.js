@@ -15,7 +15,7 @@ if(avg<= 60){
 else if (avg <= 70){
     console.log("Grade : C");
 }
-else if (avg >= 80 ){
+else if (avg <= 80 ){
     console.log("Grade : B");
 }
 else if (avg<= 90){

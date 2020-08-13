@@ -26,8 +26,7 @@ for(var j = 0; j<arrayLength; j++){
     var sum = max + arrayLength;
     var mul = max * arrayLength;
     var result = Math.round(avg);
-    
-    console
+
 
   
 
