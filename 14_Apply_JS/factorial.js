@@ -2,7 +2,7 @@
 // factorail = 1 * 2 * 3 * 4 * 5;
 var fact = 1
  for(var i = 1; i<=5; i++){
-  fact += fact * i;
+  fact = fact * i;
   console.log(fact);
 }
 // function
