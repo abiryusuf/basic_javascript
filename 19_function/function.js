@@ -12,20 +12,24 @@
 // }
 
 function evenOdd(num){
-
-    for (let i = 0; i < num.length; i++) {
+    var result;
+    for (var i = 0; i < num.length; i++) {
         var element = num[i];
        // console.log(element *2);
        if(element % 2 === 0){
-           console.log (element, ": is even number");
+           //console.log (element, ": is even number");
+           result = element, ": is even number";
        }else {
-            console.log(element, ": is odd number");
+            //console.log(element, ": is odd number");
+            result = element, ": is odd number";
        }
         
     }
+    return result
     
    
 
 }
-var number = [3,6,78,12,10,4,7,9];
-evenOdd(number);
+var number = [7];
+var result = evenOdd(number);
+console.log(result);

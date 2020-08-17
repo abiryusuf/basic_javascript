@@ -16,6 +16,7 @@ function total(num){
         sum = sum + current;
         //sum += current
 }
+ 
 return sum;
 }
 
