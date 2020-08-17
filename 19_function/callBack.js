@@ -1,6 +1,8 @@
 function callBack(name, age, task) {
     console.log("Hello", name);
     console.log("My age: ", age);
+   // washHand();
+  //takeShower();
     task();
 }
 function washHand(){
