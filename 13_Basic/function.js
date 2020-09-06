@@ -13,6 +13,7 @@ function adder(x, y, z ){
 
 }
 adder(4,4, 4);
+adder(5,6,7);
 
 function addReturn(x, y, z){
 // return is a statement which specifies the value returned from a function  
