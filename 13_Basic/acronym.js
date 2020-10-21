@@ -1,15 +1,18 @@
+// Write code to create a function that accepts a string and returns an acronym for the given string
+
 const acronymBuilder = function(str){
- 
     var words = str.split(" ");
     var result = "";
 
     for (let i = 0; i < words.length; i++) {
-        const word = words[i];
-        result += word[0].toUpperCase();
+        const element = words[i];
+
+        result += element[0].toUpperCase();
         
     }
     return result;
 }
 
-var res = acronymBuilder("abir yusuf"); 
+var info = "abir yusuf"
+var res = acronymBuilder(info);
 console.log(res);
