@@ -21,16 +21,15 @@ function movies (){
         rating: [5.0]
       }
 ],
-newTitlePairs = [];
-
-newReleases.forEach(video => {
-    newTitlePairs.push({
-        id: video.id,
-        title: video.title,
-        rating: video.rating
-    });
-});
-return newTitlePairs;
+ newList = [];
+newReleases.forEach(video =>{
+    newList.push({
+         id: video.id,
+         title: video.title
+        
+    })
+})
+return newList;
 }
 
 console.log(movies())
