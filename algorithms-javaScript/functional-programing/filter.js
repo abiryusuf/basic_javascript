@@ -35,9 +35,12 @@ function predicate(){
         // );
         var result = [];
 
-        newReleases.filter(video => {
-            return video.rating === 5.0 ? result.push(video) : null;
-        });
-        return result;
+        // newReleases.filter(video => {
+        //     return video.rating === 5.0 ? result.push(video) : null;
+        // });
+        // return result;
+
+        return newReleases.filter(video => video.rating === 5.0).
+        map(video => video.id)
 }
 console.log(predicate());
