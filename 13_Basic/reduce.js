@@ -1,8 +1,11 @@
 const num = [1,2,3,4,5];
 
-const reducer = (num1, num2 ) => num1 * num2;
+const reducer = (num1, num2 ) => 
+    num1 + num2;
 
 console.log("reduce", num.reduce(reducer));
+
+
 
 function factorialDemo(num){
     var factorial = 1;
