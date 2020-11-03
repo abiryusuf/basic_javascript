@@ -6,7 +6,7 @@ const acronym = str => {
     for (let i = 0; i < words.length; i++) {
         const word = words[i];
 
-        result += word[i].toUpperCase()
+        result += word[0].toUpperCase()
         
     }
     return result;
