@@ -6,4 +6,4 @@ const countDown = function(str){
         console.log(i)
     }
 }
-countDown();
+countDown(); 
