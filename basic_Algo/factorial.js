@@ -28,6 +28,6 @@ console.log(str1)
 
 var number = [1,2,3,4,5];
 
-const reducer = (num1, num2) => num1 * num2;
+const reducer = (num1, num2) => num1 +  num2;
 
 console.log("reduce", number.reduce(reducer));
