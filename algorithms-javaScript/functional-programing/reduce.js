@@ -1,7 +1,7 @@
 function reduce(){
     var boxarts = [
         {
-            width:200,
+            width:400,
             height:200
         },
         {
@@ -10,16 +10,16 @@ function reduce(){
         },
         {
             width: 300,
-            height: 200
+            height: 600
         }],
 
         currnetSize,
-        maxSize =-1,
+        maxSize = -1,
         largestBoxart;
 
-        boxarts.forEach(boxart => {
+        boxarts.map(boxart => {
             currnetSize = boxart.width * boxart.height;
-            if(currnetSize >maxSize){
+            if(currnetSize > maxSize){
                 largestBoxart = boxart;
                 maxSize = currnetSize;
             }
