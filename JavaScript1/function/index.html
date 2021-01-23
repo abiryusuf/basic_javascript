@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <h1>Call Function</h1>
+    <script>
+       var person1 = {
+    name: "abir",
+    place: "Bangladesh"
+}
+
+var person2 = {
+    name: "Mim",
+    place: "NY"
+}
+
+var person = {
+    fullName: function(){
+        return this.name + " " + this.place;
+    }
+}
+
+person.fullName.call(person1);
+
+ console.log(person)
+    </script>
+</body>
+</html>
