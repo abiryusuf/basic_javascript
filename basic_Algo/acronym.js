@@ -14,3 +14,5 @@ const acronym = str => {
 
 var str1 = acronym(name);
 console.log(str1);
+
+
