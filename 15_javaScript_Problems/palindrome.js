@@ -1,7 +1,28 @@
-function palindrome(str){
-    const res = str.split("").reverse().join("");
-    return str === res;
+// function palindrome(str){
+//     const res = str.split("").reverse().join("");
+//     return str === res;
+// }
+
+// var result = palindrome("madam")
+// console.log(result)
+
+//option 2
+
+function palindrome2(string){
+    let ispPalindrome = false;
+    const strArray = string.split("");
+    for (let i = 0; i < strArray.length; i++) {
+        const start = strArray[i];
+        //console.log(element);
+
+        const end = (strArray[strArray.length -1 - i]);
+        if(start !== end){
+            isPalindrome = false;
+            break;
+        }
+        ispPalindrome = true;
+    }
+    return ispPalindrome;
 }
 
-var result = palindrome("madam")
-console.log(result)
+console.log(palindrome2("abir"));
