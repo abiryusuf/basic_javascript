@@ -20,4 +20,17 @@ function reverseString(str){
 
 var res = reverseString("abir");
 
-console.log("second way to reverse the string " + res)
+console.log("second way to reverse the string " + res);
+
+//second way
+function reverseString2(str){
+    let string = "";
+    for (let i = 0; i < str.length; i++) {
+        const element = str[i];
+        string = element + string;
+        
+    }
+    return string;
+}
+
+console.log(reverseString2("yusuf"));
