@@ -34,3 +34,11 @@ function reverseString2(str){
 }
 
 console.log(reverseString2("yusuf"));
+
+
+function reverseInt(num){
+   const rev = num.toString().split("").reverse().join("");
+   return parseInt(rev) * Math.sign(num);
+}
+
+console.log(reverseInt(-10));
