@@ -12,3 +12,12 @@ console.log(rev);
 
 var join = num.join("");
 console.log(join);
+
+function reverseString(str){
+    const result = str.split("").reverse().join("");
+    return result;
+}
+
+var res = reverseString("abir");
+
+console.log("second way to reverse the string " + res)
