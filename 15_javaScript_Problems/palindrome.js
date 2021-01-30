@@ -67,3 +67,22 @@ function palindrome(str){
 }
 
 console.log(palindrome("madam"))
+
+
+function palindrome2(str){
+  const strArray = str.split("");
+  for (let i = 0; i < strArray.length; i++) {
+      const start = strArray[i];
+      const end = strArray[strArray.length -1 - i];
+      //console.log(start)
+      if(start === end){
+          return true
+      }
+      else {
+          return false
+      }
+  }
+  //return start
+}
+
+console.log(palindrome2("yusuf"));
