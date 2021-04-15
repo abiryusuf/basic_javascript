@@ -2,15 +2,16 @@ var name = "abiryusuf";
 // var x = name.reverse()
 // console.log(x)
 
-function reverseWords(str){
-    var words = str.split("")
-    var result = '';
-    for (let i = 0; i < words.length; i++) {
-        const element = words[i];
-        var res1 = element + result
+function reverseString(str){
+    var reverse = str.split("");
+    var res = "";
+    for (let i = 0; i < reverse.length; i++) {
+        const element = reverse[i];
+        var res1 = element + res;
+
+        //console.log(element);
         
     }
-    return res1
-    
+    return res1;
 }
-console.log(reverseWords(name))
+console.log(reverseString("abir"));
